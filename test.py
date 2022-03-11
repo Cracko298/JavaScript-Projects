@@ -27,7 +27,7 @@ def myClick1():
 root = Tk()
 root.geometry("300x150")
 
-myButton1 = Button(root, text="Click Me!", command=myClick1)
+myButton1 = Button(root, text="Click Me!", command=myClick1, fg="white", bg="black")
 myButton1.pack()
 
 root.mainloop()
