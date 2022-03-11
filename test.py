@@ -1,7 +1,6 @@
 Link = https://pypi.org/project/auto-py-to-exe/ #Link to convert .py to .exe
 Link = https://realpython.com/pysimplegui-python/ #Link to Python Simple Gui
     
-
 import os.path
 import os
 import tkinter
@@ -20,7 +19,7 @@ def myClick1():
 
     with open(Data0, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(33) 
+      binary_file.seek(32) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -37,7 +36,7 @@ def myClick2():
 
     with open(Data0, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(36) 
+      binary_file.seek(35) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -54,7 +53,7 @@ def myClick3():
 
     with open(Data0, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(39) 
+      binary_file.seek(38) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -71,7 +70,7 @@ def myClick4():
 
     with open(Data0, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(42) 
+      binary_file.seek(48) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -89,7 +88,7 @@ def myClick5():
 
     with open(Data1, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(33) 
+      binary_file.seek(32) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -106,7 +105,7 @@ def myClick6():
 
     with open(Data1, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(36) 
+      binary_file.seek(35) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -123,7 +122,7 @@ def myClick7():
 
     with open(Data1, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(39) 
+      binary_file.seek(38) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -140,7 +139,7 @@ def myClick8():
 
     with open(Data1, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(42) 
+      binary_file.seek(48) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -159,7 +158,7 @@ def myClick9():
 
     with open(Data2, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(33) 
+      binary_file.seek(32) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -176,7 +175,7 @@ def myClick10():
 
     with open(Data2, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(36) 
+      binary_file.seek(35) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -193,7 +192,7 @@ def myClick11():
 
     with open(Data2, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(39) 
+      binary_file.seek(38) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
@@ -210,7 +209,7 @@ def myClick12():
 
     with open(Data1, 'rb+') as binary_file:
       #open file as binary
-      binary_file.seek(42) 
+      binary_file.seek(48) 
       #Move Editing to Offset 33
       binary_file.write(data_in_byte) 
       #Writes the bytes from "data_in_byte"
